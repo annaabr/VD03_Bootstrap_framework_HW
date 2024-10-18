@@ -8,7 +8,7 @@
 <body>
     <!-- Шапка сайта -->
 <header class="bg-primary text-white text-center py-4">
-    <h1>Достопримечательности<br>города Ростова-на-Дону</h1>
+    <h1 id="SiteHead">Достопримечательности<br>города Ростова-на-Дону</h1>
     <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -16,16 +16,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Главная</a>
+                    <a class="nav-link" href="#Card1">История</a>
+                </li>
+                <br>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Card2">Храмы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">О нас</a>
+                    <a class="nav-link" href="#Card3">Памятники</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Услуги</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="#AdditionalInformation">Дополнительная информация</a>
                 </li>
             </ul>
         </div>
@@ -131,127 +132,127 @@
     <!-- Секция 2: Карточки -->
     <div class="row mt-4">
         <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" id="Card1">
                 <img src="card1.jpg" class="card-img-top" alt="...">
                 <div class ="card-body">
                     <h5 class="card-title">История<br>Ростова-на-Дону</h5>
-                    <p class="card-text">Основан в 1749 году указом императрицы Елизаветы Петровны о создании таможни на месте впадения реки Темерник в реку Дон, которую в свою очередь должна будет защищать крепость Димитрия Ростовского, возведенная в 1761 году. Название дано по церкви во имя святого Димитрия, который последние семь лет своей жизни был митрополитом Ростовским и Ярославским, а в 1757 году канонизирован Русской православной церковью. При крепости, называвшейся в быту Ростовской, возникла слобода, которую стали называть просто Ростов; в 1796 году она была преобразована в город с тем же названием. Позже, для отличия от древнего Ростова, этот город стали именовать Ростов-на-Дону</p>
+                    <p class="card-text">Росто́в-на-Дону́ (сокращённо часто — Ростов) — крупнейший город на юго-западе России, административный центр Южного федерального округа и Ростовской области. Город воинской славы (2008).</p>
                     <a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83"  class="btn btn-success" style="margin: 10px;">Узнать подробнее</a>
                     <br>
-                    <a href="#" class="btn btn-primary" style="margin: 10px;">К началу</a>
+                    <a href="#SiteHead" class="btn btn-primary" style="margin: 10px;">К началу</a>
             </div>
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" id="Card2">
                 <img src="card2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Храмы<br>Ростова-на-Дону</h5>
                     <p class="card-text">
-                        <ol>
-                            <li>Кафедральный собор Рождества Пресвятой Богородицы</li>
-                            <li>Свято-Казанский храм</li>
-                            <li>Старо-Покровский храм</li>
-                            <li>Храм иконы Богородицы "Целительница"</li>
-                            <li>Вознесенский храм</li>
-                            <li>Храм преподобного Серафима Саровского</li>
-                            <li>Сретенский храм</li>
-                            <li>Храм святителя Димитрия, Митрополита Ростовского</li>
-                            <li>Храм Преполовения Пятидесятницы</li>
-                            <li>Свято-Георгиевский храм</li>
-                            <li>Благовещенский греческий храм </li>
-                            <li>Храм Троицы Живоначальной</li>
-                            <li>Храм великомученицы Екатерины</li>
-                            <li>Храм иконы Божией Матери «Умиление»</li>
-                            <li>Храм Пантелеимона Целителя</li>
-                        </ol>
+                        В Ростове-на-Дону есть несколько действующих православный храмов, предназначенных для совершения общественного православного богослужения.
                     </p>
                     <a href="https://azbyka.ru/palomnik/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83_(%D1%85%D1%80%D0%B0%D0%BC%D1%8B)" class="btn btn-success" style="margin: 10px;">Узнать подробнее</a>
                     <br>
-                    <a href="#" class="btn btn-primary" style="margin: 10px;">К началу</a>
+                    <a href="#SiteHead" class="btn btn-primary" style="margin: 10px;">К началу</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card"  id="Card3">
                 <img src="card3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Памятники<br>Ростова-на-Дону</h5>
                     <p class="card-text">
-                    <ul>
-                        <li>Мемориальный комплекс «Павшим воинам»</li>
-                        <li>Памятник детям войны</li>
-                        <li>Памятник Ленину (Ростов-на-Дону, Большая)</li>
-                        <li>Паровозы-памятники</li>
-                        <li>Памятник первокласснику</li>
-                        <li>Монумент Первоконникам</li>
-                        <li>Памятник пограничникам</li>
-                        <li>Памятник Виктору Понедельнику</li>
-                    </ul>
-
+                        В Ростове-на-Дону по состоянию на март 2012 года насчитывается около 1000 объектов культурного наследия, в том числе 482 памятника архитектуры (из них 16 — памятники истории и культуры федерального значения), 70 памятников археологии, 8 крупнейших мемориальных комплексов, 106 памятников монументального искусства и воинской славы, около 400 мемориальных досок.
                     </p>
                     <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%D0%B8_%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D0%B0-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83" class="btn btn-success"  style="margin: 10px;">Узнать подробнее</a>
                     <br>
-                    <a href="#" class="btn btn-primary" style="margin: 10px;">К началу</a>
+                    <a href="#SiteHead" class="btn btn-primary" style="margin: 10px;">К началу</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Секция 3: Аккордеон -->
-    <div class="accordion mt-4" id="accordionExample">
-        <div class="card">
-            <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <!-- Вопрос 1 -->
-                    </button>
-                </h2>
-            </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                    Ответ на вопрос 1.
-                </div>
-            </div>
+    <h1 id="AdditionalInformation">Дополнительная информация</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Ростов-на-Дону
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+                Современный Ростов-на-Дону – это 1 136 000 жителей, добротные купеческие особняки и роскошные бизнес-центры, много зелени, гигантские промышленные предприятия, культурные центры и шумные базары.              </strong>
+          </div>
         </div>
-        <div class="card">
-            <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <!-- Вопрос 2 -->
-                    </button>
-                </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                    Ответ на вопрос 2.
-                </div>
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Храмы Ростова-на-Дону
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+                <ol>
+                    <li>Кафедральный собор Рождества Пресвятой Богородицы</li>
+                    <li>Свято-Казанский храм</li>
+                    <li>Старо-Покровский храм</li>
+                    <li>Храм иконы Богородицы "Целительница"</li>
+                    <li>Вознесенский храм</li>
+                    <li>Храм преподобного Серафима Саровского</li>
+                    <li>Сретенский храм</li>
+                    <li>Храм святителя Димитрия, Митрополита Ростовского</li>
+                    <li>Храм Преполовения Пятидесятницы</li>
+                    <li>Свято-Георгиевский храм</li>
+                    <li>Благовещенский греческий храм </li>
+                    <li>Храм Троицы Живоначальной</li>
+                    <li>Храм великомученицы Екатерины</li>
+                    <li>Храм иконы Божией Матери «Умиление»</li>
+                    <li>Храм Пантелеимона Целителя</li>
+                </ol>
+            </strong>
+          </div>
         </div>
-        <div class="card">
-            <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <!-- Вопрос 3 -->
-        </button>
-                </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                    Ответ на вопрос 3.
-                </div>
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Памятники Ростова-на-Дону
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+                <ul>
+                    <li>Мемориальный комплекс «Павшим воинам»</li>
+                    <li>Памятник детям войны</li>
+                    <li>Памятник Ленину</li>
+                    <li>Паровозы-памятники</li>
+                    <li>Памятник первокласснику</li>
+                    <li>Монумент Первоконникам</li>
+                    <li>Памятник пограничникам</li>
+                    <li>Памятник Виктору Понедельнику</li>
+                </ul>
+            </strong>
+          </div>
         </div>
-    </div>
+      </div>
 </div>
+</div>
+
+<a href="#SiteHead" class="btn btn-primary" style="margin: 10px 10px 10px 200px;">К началу</a>
 
 <!-- Футер -->
 <footer class="bg-light text-center py-4">
-    <p>Контактная информация: email@example.com | Телефон: +123456789</p>
+    <p>Контактная информация: annaabr@yandex.ru | Телефон: 8(928)1809950</p>
     <div>
-        <a href="#" class="mr-3">Facebook</a>
-        <a href="#" class="mr-3">Twitter</a>
-        <a href="#">Instagram</a>
+        <a href="https://t.me/VKS_9_00" class="mr-3">Telegram</a>
+        <a href="https://api.whatsapp.com/send?phone=89281809950" class="mr-3">Whatsapp</a>
     </div>
 </footer>
 
